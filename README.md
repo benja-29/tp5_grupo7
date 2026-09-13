@@ -1,1 +1,7 @@
-# tp5_grupo7
+Integrantes del grupo7:
+
+benja-29= Benjamin Ortega
+
+diegou777= Diego Cari
+
+Santi-Aisama73= Santiago Aisama
