@@ -8,6 +8,12 @@ public class Principal {
 
 	public static void main(String[] args) {
 
+		ar.edu.unju.escmi.tp5.collections.CollectionCliente.precargarClientes();
+	    ar.edu.unju.escmi.tp5.collections.CollectionProducto.precargarProductos();
+	    ar.edu.unju.escmi.tp5.collections.CollectionStock.precargarStock();
+		
+		
+		
 		int opcion;
 
 		do {
