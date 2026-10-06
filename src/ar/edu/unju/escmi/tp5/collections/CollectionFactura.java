@@ -87,16 +87,14 @@ public class CollectionFactura {
 		return mayorNumero + 1;
 	}
 
-	public static void mostrarFactura(
-			Factura factura) {
+	public static void mostrarFactura(Factura factura) {
 
 		if (factura == null) {
 			return;
 		}
 
 		System.out.println();
-		System.out.println(
-				"===== FACTURA =====");
+		System.out.println("===== FACTURA =====");
 
 		System.out.println(
 				"Numero: "
@@ -111,8 +109,7 @@ public class CollectionFactura {
 				+ factura.getCliente());
 
 		System.out.println();
-		System.out.println(
-				"--- DETALLE ---");
+		System.out.println("--- DETALLE ---");
 
 		for (DetalleFactura detalle
 				: factura.getDetalleFactura()) {
